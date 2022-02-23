@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+body{
+     font-family: Lato, sans-serif;
+}
+.logo {
+    float: left;
+}
+
+.img {
+    height: 70px;
+    padding-left: 20px;
+}
+
+.navigation-bar {
+    background-color: #1d366d;
+    height: 73px;
+}
+
+
+.navlinks-ul{
+    list-style: none;
+        float: right;
+}
+
+
+.navlinks-ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:900;
+}
+
+.navlinks-ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 24px 25px;
+    text-align: center;
+}
+
+.navlinks-ul li a:hover {
+    background-color: #e67e22;
+    transition: 0.5s;
+}
+
+/*----brown #b14145---*/
+/*----carrot #e67e22---*/
+/*----navy blue #1d366d---*/
+/*---------main area--------*/
+
+
+.main-text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translateY(-50%);
+    padding: 60px;
+    width: 50%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #e67e22;
+}
+
+.main-text h1 {
+    font-weight: 900;
+    font-size: 44px;
+    border-bottom: 2px solid;
+    margin-bottom: 12px;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+.btn-started {
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial Black;
+    padding: 20px;
+    color: white;
+    background-color: #e67e22;
+}
+
+.btn-started:hover {
+    background-color: white;
+    color: #e67e22;
+    transition: 0.5s;
+}
+
+/*---------Joiner-----*/
+
+.joiner {
+    background-color: white;
+    font-family: Arial Black;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.joiner-statement {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 60px;
+    float: left;
+}
+
+.icon-book {
+    display: inline-block;
+    padding: 20px 20px 0px 20px;
+}
+
+/*---------login-----------*/
+
+.login-region {
+    display: block;
+    background-color: #E2E2E5;
+    height: 390px;
+    padding: 80px 0px;
+}
+
+.login-box {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.login-text {
+    display: inline-block;
+    background-color: white;
+    padding: 20px 20px;
+    width: 50%;
+    height: 100%;
+    margin-left: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 0;
+}
+
+.login-input {
+    background-color: #474A59;
+    height: 120%;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    width: 50%;
+    float: right;
+    padding: 40px;
+}
+
+.login-text h2 {
+    padding: 18px 20px 20px 20px;
+    font-family: Arial Black;
+    font-size: 38px;
+}
+
+.login-text h3 {
+    padding: 0px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.login-input font {
+    display: inline-block;
+}
+
+.login-input a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: #e67e22;
+}
+.login-input form input{
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+    margin: 13px 0;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid green;
+    outline: none;
+}
+.login-input form input:focus{
+    border-bottom: 2px solid red;
+    outline: none;
+}
+.login-input form button{
+    margin-top: 13px;
+    width: 100%;
+    background-color: transparent;
+    border: transparent 3px solid;
+    padding: 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border: green 3px solid;
+}
+.login-input form button:hover{
+    border: red 3px solid;
+}
+
+.login-input form label {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/*--------bottom-------*/
+
+.mian-bottom {
+    padding-top: 40px;
+    height: 240px;
+    background-color: #0E0E0E;
+}
+
+.address {
+    width: 59%;
+    height: 200px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px 15px 35px;
+}
+
+.other-links {
+    padding: 20px 20px 20px 40px;
+    display: inline-block;
+    width: 39%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.final-logo {
+    height: 60px;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.address-text {
+    color: white;
+}
+
+.final-hadding {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.links-style {
+    margin-bottom: 5px;
+    color: white;
+}
+
+/*--------copyright-------*/
+
+.copyright {
+    background-color: black;
+    height: 60px;
+    padding: 20px 40px;
+}
+
+.copyright-text {
+    color: white;
+}
+
+/*-----Extra-----*/
+
+
+/*-----The End-----*/

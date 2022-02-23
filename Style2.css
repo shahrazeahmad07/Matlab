@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wallpaper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(99Bjx.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-------Navigation Bar---------*/
+
+.logo {
+    float: left;
+}
+
+.img {
+    height: 70px;
+    padding-left: 20px;
+}
+
+.navigation-bar {
+    background-color: #1d366d;
+    height: 73px;
+}
+
+
+.navlinks-ul{
+    list-style: none;
+    float: right;
+}
+
+
+.navlinks-ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:900;
+    font-family: Lato, sans-serif;;
+}
+
+.navlinks-ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 24px 25px;
+    text-align: center;
+}
+
+.navlinks-ul li a:hover {
+    background-color: #e67e22;
+    transition: 0.5s;
+}
+
+/*--------main content------*/
+
+
+
+.start {
+    padding: 20px;
+    color: white;
+    font-size: 45px;
+}
+
+.long-copy-div {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.long-copy {
+    padding: 20px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+/*-----------main ending---------*/
+
+.mian-bottom {
+    padding-top: 40px;
+    height: 240px;
+    background-color: #0E0E0E;
+}
+
+.address {
+    width: 59%;
+    height: 200px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px 15px 35px;
+}
+
+.other-links {
+    padding: 20px 20px 20px 40px;
+    display: inline-block;
+    width: 39%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.final-logo {
+    height: 60px;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.address-text {
+    color: white;
+}
+
+.final-hadding {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.links-style {
+    margin-bottom: 5px;
+    color: white;
+}
+
+/*--------copyright-------*/
+
+.copyright {
+    background-color: black;
+    height: 60px;
+    padding: 20px 40px;
+}
+
+.copyright-text {
+    color: white;
+}
+
+/*--------the end-------*/
+
