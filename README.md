@@ -1,5 +1,7 @@
 # Matlab Website
 It was my first semester project when we were getting basics of web development and I designed this website with HTML and CSS.
+It has two pages. One is a 'Home' page and the other is 'About Us' page.
+
 You can view this website live with the following link:
 https://matlabweb.netlify.app/
 
